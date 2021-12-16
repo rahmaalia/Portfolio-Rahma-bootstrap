@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-a {
+  color: #353535 !important;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+
+.nav-link:hover {
+  color: #8abd91 !important;
+}
+
+a.active {
+  color: #8abd91 !important;
+}
