@@ -62,7 +62,8 @@ span {
   transition: all 0.5s;
 }
 
-.sosial-media a:hover {
+.sosial-media a:hover,
+.sosial-media-contact a:hover {
   color: #8abd91;
 }
 /* end home */
@@ -80,7 +81,8 @@ span {
 
 .about-text h1,
 .text-project h1,
-.text-skill h1 {
+.text-skill h1,
+.text-contact h1 {
   font-family: 'Abril Fatface', cursive;
   font-weight: bolder;
   letter-spacing: 3px;
@@ -94,11 +96,14 @@ span {
 /* end about */
 
 /* project */
-.text-project {
+.text-project,
+.text-skill,
+.text-contact {
   margin-top: 100px;
 }
 
-.text-project h1::after {
+.text-project h1::after,
+.text-contact h1::after {
   content: ' ';
   display: block;
   border-bottom: 6px solid #8abd91;
@@ -120,10 +125,6 @@ span {
 /* end project */
 
 /* skill */
-.text-skill {
-  margin-top: 100px;
-}
-
 .text-skill h1::after {
   content: ' ';
   display: block;
@@ -141,9 +142,6 @@ span {
   display: block;
   padding-top: 37px;
   padding-bottom: 20px;
-  /* padding-top: 50px;
-  margin: 0 auto;
-  padding-bottom: 30px; */
 }
 
 .img-tools {
@@ -154,3 +152,15 @@ span {
   height: 220px;
 }
 /* end skill */
+
+/* contact */
+
+.sosial-media-contact a {
+  text-decoration: none;
+  color: gray;
+  padding-right: 25px;
+  width: 20px;
+  height: 20px;
+  transition: all 0.5s;
+}
+/* end contact */
